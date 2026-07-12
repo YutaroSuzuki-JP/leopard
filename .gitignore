@@ -1,0 +1,61 @@
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Gradle Files
+.gradle/
+build/
+*/build/
+out/
+*/out/
+.kotlin/
+.link_transitive_resources/
+.configuration-cache/
+
+# Local configuration (Android SDK paths, etc.)
+local.properties
+
+# IDE settings
+.idea/
+*.iws
+.project
+.classpath
+.settings/
+
+# Xcode settings
+*.xcuserstate
+xcuserdata/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace/
+!sample/iosApp/iosApp.xcodeproj/project.xcworkspace
+
+# Android key-store and built packages
+*.keystore
+*.jks
+*.apk
+*.ap_
+*.aab
+
+# GPG Signing private keys and metadata files
+*.gpg
+*.asc
+secret.properties
+signing.properties
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Custom agent configs
+.agents/
