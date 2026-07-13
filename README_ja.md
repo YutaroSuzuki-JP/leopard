@@ -66,7 +66,7 @@ Compose Multiplatformプロジェクトの `commonMain` ソースセット（`bu
 kotlin {
     sourceSets {
         commonMain.dependencies {
-            implementation("io.github.leopard:charts:1.0.0") // 最新バージョンを指定してください
+            implementation("io.github.yutarosuzuki-jp:leopard:1.0.0") // 最新バージョンを指定してください
         }
     }
 }

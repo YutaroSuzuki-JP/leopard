@@ -68,6 +68,7 @@ android {
 
 publishing {
     publications.withType<MavenPublication> {
+        artifactId = artifactId.replace("library", "leopard")
         val pubName = name
         val javadocTask = tasks.register("${pubName}JavadocJar", Jar::class) {
             archiveClassifier.set("javadoc")

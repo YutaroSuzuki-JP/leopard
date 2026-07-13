@@ -67,7 +67,7 @@ Add the dependency to your `commonMain` source set in your Compose Multiplatform
 kotlin {
     sourceSets {
         commonMain.dependencies {
-            implementation("io.github.leopard:charts:1.0.0") // Replace with latest version
+            implementation("io.github.yutarosuzuki-jp:leopard:1.0.0") // Replace with latest version
         }
     }
 }
